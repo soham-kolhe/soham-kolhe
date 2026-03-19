@@ -1,18 +1,119 @@
-# 💫 About Me:
-🎓 I’m currently a 3rd-year student at Parul University.<br>💻 I’m currently learning Full Stack Web Development.<br>🧠 I’m practicing Data Structures and Algorithms (DSA) in Java.<br>🌱 I’m eager to learn new technologies and explore open-source projects.<br>💡 I believe in continuous learning and solving real-world problems.
+<h1 align="center">👋 Hi, I'm Soham Kolhe</h1>
 
+<h3 align="center">🚀 Full Stack Developer | AI Enthusiast | Problem Solver</h3>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/soham-kolhe-b35768309) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@SohamKolhe10489) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:sohamkolhe20@gmail.com) 
+<p align="center">
+🎓 B.Tech CSE @ Parul University <br>
+💡 Building scalable web apps & AI-powered systems <br>
+🧠 100+ DSA problems solved on LeetCode
+</p>
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=soham-kolhe&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=soham-kolhe&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=soham-kolhe&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+---
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<h2>🔥 About Me</h2>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<ul>
+  <li>💻 Full Stack Developer (MERN + Real-time systems)</li>
+  <li>🤖 Exploring AI systems (RAG, Vector DBs, LangChain)</li>
+  <li>⚡ Strong in building <b>interactive & performance-driven apps</b></li>
+  <li>☁️ Azure Certified (Cloud + AI + Security)</li>
+</ul>
+
+---
+
+<h2>🚀 Featured Projects</h2>
+
+<h3>🧠 AI Second Brain (RAG System)</h3>
+<ul>
+  <li>Built an AI-powered knowledge system using <b>LangChain + Vector DB</b></li>
+  <li>Implemented semantic search for accurate responses</li>
+  <li>Reduced hallucination using prompt engineering</li>
+  <li>Features: PDF ingestion, summarization, flashcards</li>
+</ul>
+
+<p>🔗 <a href="https://github.com/soham-kolhe/AI-SecondBrain">Add your repo link here</a></p>
+
+<hr>
+
+<h3>🎨 Real-Time Collaborative Whiteboard</h3>
+<ul>
+  <li>Built using <b>React + Socket.io + Canvas API</b></li>
+  <li>Multi-user drawing with &lt;100ms latency</li>
+  <li>Implemented undo/redo & real-time sync</li>
+  <li>Optimized rendering for smooth 60 FPS</li>
+</ul>
+
+<p>🔗 <a href="https://github.com/soham-kolhe/Collaborative_WhiteBoard">Add your repo link here</a></p>
+
+---
+
+<h2>🛠️ Tech Stack</h2>
+
+<h3>💻 Languages</h3>
+<p>
+<img src="https://skillicons.dev/icons?i=java,js,cpp,sql" />
+</p>
+
+<h3>🌐 Frontend</h3>
+<p>
+<img src="https://skillicons.dev/icons?i=react,tailwind,html,css" />
+</p>
+
+<h3>⚙️ Backend</h3>
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express" />
+<img src="https://img.shields.io/badge/WebSockets-000?style=for-the-badge&logo=socket.io" />
+</p>
+
+<h3>🗄️ Database</h3>
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql" />
+<img src="https://img.shields.io/badge/Pinecone-VectorDB-blue?style=for-the-badge" />
+</p>
+
+<h3>☁️ Cloud & DevOps</h3>
+<p>
+<img src="https://skillicons.dev/icons?i=azure,docker,git,github" />
+</p>
+
+---
+
+<h2>🏆 Certifications</h2>
+
+<ul>
+  <li>🥇 Azure Administrator Associate (AZ-104)</li>
+  <li>🥇 Azure AI Fundamentals (AI-900)</li>
+  <li>🥇 Azure Data Fundamentals (DP-900)</li>
+  <li>🥇 Azure Security Fundamentals (SC-900)</li>
+  <li>🥇 Azure Fundamentals (AZ-900)</li>
+</ul>
+
+---
+
+<h2>📊 GitHub Stats</h2>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=soham-kolhe&theme=radical" />
+<br>
+<img src="https://nirzak-streak-stats.vercel.app/?user=soham-kolhe&theme=radical" />
+<br>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soham-kolhe&layout=compact&theme=radical" />
+</p>
+
+---
+
+<h2>🌐 Connect With Me</h2>
+
+<p>
+<a href="https://linkedin.com/in/soham-kolhe-b35768309">
+  <img src="https://skillicons.dev/icons?i=linkedin" />
+</a>
+
+<a href="mailto:sohamkolhe20@gmail.com">
+  <img src="https://skillicons.dev/icons?i=gmail" />
+</a>
+</p>
+
+---
+
+<h3 align="center">⭐ "Building systems that solve real-world problems."</h3>
