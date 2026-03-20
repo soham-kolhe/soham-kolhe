@@ -43,7 +43,7 @@
   <li>Optimized rendering for smooth 60 FPS</li>
 </ul>
 
-<p>🔗 <a href="https://github.com/soham-kolhe/Collaborative_WhiteBoard">Add your repo link here</a></p>
+<p>🔗 <a href="https://github.com/soham-kolhe/Collaborative_WhiteBoard/tree/Multi-CollabBoard">Add your repo link here</a></p>
 
 ---
 
