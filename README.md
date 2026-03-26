@@ -1,115 +1,147 @@
-<h1 align="center">👋 Hi, I'm Soham Kolhe</h1>
+<div align="center">
 
-<h3 align="center">🚀 Full Stack Developer | AI Enthusiast | Problem Solver</h3>
+# 👋 Hi, I'm **Soham Kolhe**
 
-<p align="center">
-🎓 B.Tech CSE @ Parul University <br>
-💡 Building scalable web apps & AI-powered systems <br>
-🧠 100+ DSA problems solved on LeetCode
-</p>
+**Full Stack Developer (MERN)** • **AI & RAG Systems** • **Azure Certified**  
+🎓 B.Tech CSE • Parul University • Vadodara, India  
+💼 Open for **SDE / Full Stack Internships & Entry-Level Roles**
 
----
-
-<h2>🔥 About Me</h2>
-
-<ul>
-  <li>💻 Full Stack Developer (MERN + Real-time systems)</li>
-  <li>🤖 Exploring AI systems (RAG, Vector DBs, LangChain)</li>
-  <li>⚡ Strong in building <b>interactive & performance-driven apps</b></li>
-  <li>☁️ Azure Certified (Cloud + AI + Security)</li>
-</ul>
+</div>
 
 ---
 
-<h2>🚀 Featured Projects</h2>
+## 🚀 About Me
 
-<h3>🧠 AI Second Brain (RAG System)</h3>
-<ul>
-  <li>Built an AI-powered knowledge system using <b>LangChain + Vector DB</b></li>
-  <li>Implemented semantic search for accurate responses</li>
-  <li>Reduced hallucination using prompt engineering</li>
-  <li>Features: PDF ingestion, summarization, flashcards</li>
-</ul>
+**Full Stack Developer** passionate about building scalable web apps and AI-powered systems.
 
-<p>🔗 <a href="https://github.com/soham-kolhe/AI-SecondBrain">Add your repo link here</a></p>
-
-<hr>
-
-<h3>🎨 Real-Time Collaborative Whiteboard</h3>
-<ul>
-  <li>Built using <b>React + Socket.io + Canvas API</b></li>
-  <li>Multi-user drawing with &lt;100ms latency</li>
-  <li>Implemented undo/redo & real-time sync</li>
-  <li>Optimized rendering for smooth 60 FPS</li>
-</ul>
-
-<p>🔗 <a href="https://github.com/soham-kolhe/Collaborative_WhiteBoard/tree/main">Add your repo link here</a></p>
+- 💻 **MERN Stack** + Real-time applications (Socket.io, Canvas API)  
+- 🤖 **AI Systems**: RAG pipelines, LangChain, Vector Databases (Pinecone)  
+- 🧩 **100+ LeetCode problems** solved (Arrays, DP, Graphs, Greedy)  
+- ☁️ **5x Azure Certified** (AZ-104, AI-900, DP-900, SC-900, AZ-900)  
+- ⚡ **Campus placements 2027** - ready to contribute
 
 ---
 
-<h2>🛠️ Tech Stack</h2>
+## 🔥 Featured Projects
 
-<h3>💻 Languages</h3>
-<p>
-<img src="https://skillicons.dev/icons?i=java,js,cpp,sql" />
-</p>
+### 🧠 **AI Second Brain** - RAG Knowledge Base
+*AI-powered personal knowledge system for documents & notes*
+<br>
+📊 Features:<br>
+├── PDF/Text ingestion & semantic search<br>
+├── LangChain + Pinecone Vector DB<br>
+├── Reduced hallucinations by 80% with RAG<br>
+├── Flashcards, summarization, chat Q&A<br>
 
-<h3>🌐 Frontend</h3>
-<p>
-<img src="https://skillicons.dev/icons?i=react,tailwind,html,css" />
-</p>
 
-<h3>⚙️ Backend</h3>
-<p>
-<img src="https://skillicons.dev/icons?i=nodejs,express" />
-<img src="https://img.shields.io/badge/WebSockets-000?style=for-the-badge&logo=socket.io" />
-</p>
+**Tech**: React • Node.js • LangChain • Pinecone • MongoDB  
 
-<h3>🗄️ Database</h3>
-<p>
-<img src="https://skillicons.dev/icons?i=mongodb,mysql" />
+🔗 [Code](https://github.com/soham-kolhe/AI-SecondBrain)  
+🔗 [Live Demo](https://your-demo-link.com)
+
+---
+
+### 🎨 **Real-Time Collaborative Whiteboard**
+*Multi-user drawing app with <100ms latency*
+<br>
+📊 Features:<br>
+├── Real-time sync across multiple users<br>
+├── Undo/redo, per-user sessions<br>
+├── Optimized Canvas API for 60 FPS<br>
+├── Socket.io for sub-100ms latency<br>
+
+
+**Tech**: React • Socket.io • Node.js • Canvas API • Express  
+
+🔗 [Code](https://github.com/soham-kolhe/Collaborative_WhiteBoard)  
+🔗 [Live Demo](https://your-demo-link.com)
+
+---
+
+### 🛠️ Tech Stack
+
+<div>
+
+**Languages**  
+<img src="https://skillicons.dev/icons?i=js,typescript,java,cpp,sql" height="40" />
+
+**Frontend**  
+<img src="https://skillicons.dev/icons?i=react,vite,tailwind,html,css" height="40" />
+
+**Backend**  
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql" height="40" />  
+<img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white" />
+
+**AI**  
+<img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Pinecone-VectorDB-blue?style=for-the-badge" />
-</p>
 
-<h3>☁️ Cloud & DevOps</h3>
-<p>
-<img src="https://skillicons.dev/icons?i=azure,docker,git,github" />
-</p>
+**Cloud & Tools**  
+<img src="https://skillicons.dev/icons?i=azure,docker,git,github,vscode" height="40" />
 
----
-
-<h2>🏆 Certifications</h2>
-
-<ul>
-  <li>🥇 Azure Administrator Associate (AZ-104)</li>
-  <li>🥇 Azure AI Fundamentals (AI-900)</li>
-  <li>🥇 Azure Data Fundamentals (DP-900)</li>
-  <li>🥇 Azure Security Fundamentals (SC-900)</li>
-  <li>🥇 Azure Fundamentals (AZ-900)</li>
-</ul>
+</div>
 
 ---
 
-<h2>📊 GitHub Stats</h2>
+## 🏆 Certifications
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soham-kolhe&layout=compact&theme=radical" />
-</p>
+<div align="center">
 
----
+| Certification | Badge |
+|---------------|-------|
+| 🥇 **AZ-104** Azure Administrator | ![AZ-104](https://img.shields.io/badge/AZ--104-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white) |
+| 🥇 **AI-900** Azure AI Fundamentals | ![AI-900](https://img.shields.io/badge/AI--900-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white) |
+| 🥇 **DP-900** Azure Data Fundamentals | ![DP-900](https://img.shields.io/badge/DP--900-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white) |
+| 🥇 **SC-900** Azure Security Fundamentals | ![SC-900](https://img.shields.io/badge/SC--900-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white) |
+| 🥇 **AZ-900** Azure Fundamentals | ![AZ-900](https://img.shields.io/badge/AZ--900-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white) |
 
-<h2>🌐 Connect With Me</h2>
-
-<p>
-<a href="https://linkedin.com/in/soham-kolhe-b35768309">
-  <img src="https://skillicons.dev/icons?i=linkedin" />
-</a>
-
-<a href="mailto:sohamkolhe20@gmail.com">
-  <img src="https://skillicons.dev/icons?i=gmail" />
-</a>
-</p>
+</div>
 
 ---
 
-<h3 align="center">⭐ "Building systems that solve real-world problems."</h3>
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=soham-kolhe&show_icons=true&theme=radical" />
+
+<br>
+
+<img src="https://streak-stats.demolab.com?user=soham-kolhe&theme=radical" />
+
+<br>
+
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=soham-kolhe&layout=compact&theme=radical" />
+
+</div>
+
+---
+
+## 🌐 Let's Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/soham-kolhe-b35768309)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sohamkolhe20@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000?style=for-the-badge&logo=react&logoColor=white)](https://your-portfolio-link.com)
+
+</div>
+
+<div align="center">
+💼 Available for:
+
+Full Stack Developer Internships
+
+SDE Entry-Level Roles (2027 Batch)
+
+Freelance / Open Source Contributions
+
+</div>
+
+---
+
+<div align="center">
+
+**⭐ "Building scalable systems that solve real problems."**
+
+</div>
