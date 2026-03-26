@@ -93,10 +93,6 @@
 <h2>📊 GitHub Stats</h2>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=soham-kolhe&theme=radical" />
-<br>
-<img src="https://nirzak-streak-stats.vercel.app/?user=soham-kolhe&theme=radical" />
-<br>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soham-kolhe&layout=compact&theme=radical" />
 </p>
 
