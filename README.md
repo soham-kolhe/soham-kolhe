@@ -53,7 +53,7 @@
 
 **Tech**: React • Socket.io • Node.js • Canvas API • Express  
 
-🔗 [Code](https://github.com/soham-kolhe/Collaborative_WhiteBoard)  
+🔗 [Code](https://github.com/soham-kolhe/collaborative-board)  
 🔗 [Live Demo](https://your-demo-link.com)
 
 ---
