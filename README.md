@@ -41,7 +41,7 @@
 
 ---
 
-### 🎨 **Real-Time Collaborative Whiteboard**
+### 🎨 **CollabBoard [Real-Time Collaborative Whiteboard]**
 *Multi-user drawing app with <100ms latency*
 <br>
 📊 Features:<br>
@@ -54,7 +54,7 @@
 **Tech**: React • Socket.io • Node.js • Canvas API • Express  
 
 🔗 [Code](https://github.com/soham-kolhe/collaborative-board)  
-🔗 [Live Demo](https://your-demo-link.com)
+🔗 [Live Demo](https://collabboard-frontend-one.vercel.app/)
 
 ---
 
