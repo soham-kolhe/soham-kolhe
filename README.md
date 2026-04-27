@@ -11,7 +11,7 @@
 
 ---
 
-### Full Stack Developer building AI-powered web applications with the MERN stack. Passionate about RAG systems, real-time collaboration tools, and scalable cloud architectures. 5× Azure Certified · 2027 Batch · Open to SDE internships & entry-level roles.
+Full Stack Developer building AI-powered web applications with the MERN stack. Passionate about RAG systems, real-time collaboration tools, and scalable cloud architectures. 5x Azure Certified · 2027 Batch · Open to SDE internships & entry-level roles.
 
 ---
 
@@ -104,7 +104,7 @@
 | Area | Detail |
 |------|--------|
 | 🧩 Problem Solving | 100+ LeetCode problems (Arrays, DP, Graphs, Greedy) |
-| ☁️ Cloud | 5× Microsoft Azure Certified |
+| ☁️ Cloud | 5x Microsoft Azure Certified |
 | ⚡ Performance | Built real-time systems with sub-100ms latency |
 | 🤖 AI/ML | RAG pipelines with 80% reduction in LLM hallucinations |
 
