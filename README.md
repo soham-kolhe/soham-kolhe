@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Soham%20Kolhe&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Full%20Stack%20Developer%20%E2%80%A2%20AI%20%26%20RAG%20Systems&descAlignY=55&descSize=16" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&text=Soham%20Kolhe&fontSize=42&fontColor=white&fontAlignY=32&desc=Full%20Stack%20Developer&descSize=16" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/soham-kolhe-b35768309)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sohamkolhe20@gmail.com)
@@ -42,7 +42,7 @@ Full Stack Developer building AI-powered web applications with the MERN stack. P
 - 60 FPS Canvas API rendering with undo/redo
 - Per-user sessions & persistent state
 
-**Stack:** React · Socket.io · Node.js · Canvas API · Express
+**Stack:** React · Socket.io · Node.js · Canvas API (tldraw) · Express
 
 [![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/soham-kolhe/collaborative-board)
 [![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=vercel&logoColor=white)](https://collabboard-frontend-one.vercel.app/)
