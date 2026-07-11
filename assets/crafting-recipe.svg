@@ -1,0 +1,76 @@
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" font-family="Courier New, monospace">
+  <rect width="680" height="300" fill="#0D1F0D"/>
+  
+  <rect x="15" y="20" width="300" height="260" fill="#8B5A2B" stroke="#4A2F14" stroke-width="4"/>
+  <line x1="18" y1="23" x2="312" y2="23" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="18" y1="23" x2="18" y2="277" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="18" y1="277" x2="312" y2="277" stroke="#555555" stroke-width="2"/>
+  <line x1="312" y1="23" x2="312" y2="277" stroke="#555555" stroke-width="2"/>
+  <text x="165" y="45" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle">CRAFTING TABLE</text>
+  
+  <rect x="40" y="60" width="74" height="74" fill="#8B8B8B" stroke="#373737" stroke-width="3"/>
+  <rect x="44" y="64" width="66" height="66" fill="#61DAFB"/>
+  <circle cx="77.0" cy="89.0" r="3.4" fill="#1A1A1A"/><ellipse cx="77.0" cy="89.0" rx="13.6" ry="5.1" fill="none" stroke="#1A1A1A" stroke-width="1.36" transform="rotate(0 77.0 89.0)"/><ellipse cx="77.0" cy="89.0" rx="13.6" ry="5.1" fill="none" stroke="#1A1A1A" stroke-width="1.36" transform="rotate(60 77.0 89.0)"/><ellipse cx="77.0" cy="89.0" rx="13.6" ry="5.1" fill="none" stroke="#1A1A1A" stroke-width="1.36" transform="rotate(120 77.0 89.0)"/>
+  <text x="77.0" y="122" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#1A1A1A" font-family="Courier New, monospace">REACT</text>
+  <rect x="122" y="60" width="74" height="74" fill="#8B8B8B" stroke="#373737" stroke-width="3"/>
+  <rect x="126" y="64" width="66" height="66" fill="#339933"/>
+  
+  <text x="159.0" y="122" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#FFFFFF" font-family="Courier New, monospace">NODE</text>
+  <rect x="204" y="60" width="74" height="74" fill="#8B8B8B" stroke="#373737" stroke-width="3"/>
+  <rect x="208" y="64" width="66" height="66" fill="#4B4B4B"/>
+  
+  <text x="241.0" y="122" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#FFFFFF" font-family="Courier New, monospace">EXPRESS</text>
+  <rect x="40" y="142" width="74" height="74" fill="#8B8B8B" stroke="#373737" stroke-width="3"/>
+  <rect x="44" y="146" width="66" height="66" fill="#47A248"/>
+  <g transform="translate(77.0,171.0) scale(0.85)">
+    <ellipse cx="0" cy="-10" rx="14" ry="5" fill="#FFFFFF"/>
+    <path d="M -14,-10 L -14,8 A 14 5 0 0 0 14 8 L 14,-10" fill="#FFFFFF" opacity="0.85"/>
+    <ellipse cx="0" cy="8" rx="14" ry="5" fill="#FFFFFF"/>
+    </g>
+  <text x="77.0" y="204" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#FFFFFF" font-family="Courier New, monospace">MONGO</text>
+  <rect x="122" y="142" width="74" height="74" fill="#8B8B8B" stroke="#373737" stroke-width="3"/>
+  <rect x="126" y="146" width="66" height="66" fill="#1C3C3C"/>
+  
+  <text x="159.0" y="204" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#FFFFFF" font-family="Courier New, monospace">LANGCHAIN</text>
+  <rect x="204" y="142" width="74" height="74" fill="#8B8B8B" stroke="#373737" stroke-width="3"/>
+  <rect x="208" y="146" width="66" height="66" fill="#2E2E2E"/>
+  
+  <text x="241.0" y="204" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#FFFFFF" font-family="Courier New, monospace">PINECONE</text>
+  <rect x="40" y="224" width="74" height="74" fill="#8B8B8B" stroke="#373737" stroke-width="3"/>
+  <rect x="44" y="228" width="66" height="66" fill="#2496ED"/>
+  <g transform="translate(77.0,253.0) scale(0.85)" stroke="#FFFFFF" stroke-width="2" fill="none">
+    <polygon points="0,-14 14,-7 14,7 0,14 -14,7 -14,-7" />
+    <line x1="0" y1="-14" x2="0" y2="14"/>
+    <line x1="0" y1="-14" x2="14" y2="-7"/>
+    <line x1="0" y1="-14" x2="-14" y2="-7"/>
+    </g>
+  <text x="77.0" y="286" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#FFFFFF" font-family="Courier New, monospace">DOCKER</text>
+  <rect x="122" y="224" width="74" height="74" fill="#8B8B8B" stroke="#373737" stroke-width="3"/>
+  <rect x="126" y="228" width="66" height="66" fill="#0078D4"/>
+  <g transform="translate(159.0,253.0) scale(0.85)">
+    <ellipse cx="-8" cy="2" rx="9" ry="7" fill="#FFFFFF"/>
+    <ellipse cx="4" cy="-2" rx="11" ry="9" fill="#FFFFFF"/>
+    <ellipse cx="14" cy="3" rx="8" ry="6" fill="#FFFFFF"/>
+    <rect x="-16" y="2" width="38" height="8" fill="#FFFFFF"/>
+    </g>
+  <text x="159.0" y="286" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#FFFFFF" font-family="Courier New, monospace">AZURE</text>
+  <rect x="204" y="224" width="74" height="74" fill="#8B8B8B" stroke="#373737" stroke-width="3"/>
+  <rect x="208" y="228" width="66" height="66" fill="#F05032"/>
+  <g transform="translate(241.0,253.0) scale(0.9)" fill="#FFFFFF">
+    <circle cx="0" cy="-10" r="3.2"/><circle cx="0" cy="10" r="3.2"/><circle cx="10" cy="0" r="3.2"/>
+    <rect x="-1.4" y="-10" width="2.8" height="20"/>
+    <rect x="0" y="-1.4" width="10" height="2.8"/>
+    </g>
+  <text x="241.0" y="286" font-size="8.5" font-weight="bold" text-anchor="middle" fill="#FFFFFF" font-family="Courier New, monospace">GIT</text>
+  <polygon points="293,169.0 333,183.0 293,197.0" fill="#55FF55"/>
+  <rect x="338" y="128.0" width="110" height="110" fill="#8B8B8B" stroke="#FFD700" stroke-width="5"/>
+  <rect x="344" y="134.0" width="98" height="98" fill="#12241a"/>
+  <g transform="translate(393.0,173.0) scale(1.6)">
+    <polygon points="0,-16 14,-4 0,16 -14,-4" fill="#5DE0E6"/>
+    <polygon points="0,-16 14,-4 0,-2" fill="#B8F5F7"/>
+    <polygon points="0,-16 -14,-4 0,-2" fill="#8BE9EC"/>
+    </g>
+  <text x="393.0" y="260.0" font-size="10" font-weight="bold" fill="#FFD700" text-anchor="middle">RARE ITEM</text>
+  <text x="393.0" y="278.0" font-size="14" font-weight="bold" fill="#55FF55" text-anchor="middle">FULL-STACK</text>
+  <text x="393.0" y="296.0" font-size="14" font-weight="bold" fill="#55FF55" text-anchor="middle">DEVELOPER</text>
+</svg>
