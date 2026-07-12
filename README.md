@@ -1,136 +1,161 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&text=Soham%20Kolhe&fontSize=42&fontColor=white&fontAlignY=32&desc=Full%20Stack%20Developer&descSize=16" />
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/soham-kolhe-b35768309)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sohamkolhe20@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/soham-kolhe)
-![Profile Views](https://komarev.com/ghpvc/?username=soham-kolhe&style=flat-square&color=6366f1)
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=26&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&width=600&lines=%E2%97%88+NEON_CITY+OS+v2.7.1+%E2%97%88;INITIALIZING+SYSTEM...;LOADING+NEURAL+INTERFACE...;CONNECTING+TO+THE+GRID...;WELCOME%2C+OPERATOR" alt="boot sequence" />
 
 </div>
 
----
+<h1 align="center">SOHAM KOLHE</h1>
 
-Full Stack Developer building AI-powered web applications with the MERN stack. Passionate about RAG systems, real-time collaboration tools, and scalable cloud architectures. 5x Azure Certified · 2027 Batch · Open to SDE internships & entry-level roles.
+<p align="center">
+  <b>full-stack developer — MERN / azure / devops / ai</b>
+  &nbsp;<code>final-year cse · parul university · class of 2027</code>
+</p>
 
----
+<p align="center"><sub>◈ OPERATOR_ID: SK-2027 &nbsp;·&nbsp; CLEARANCE: LEVEL 5 &nbsp;·&nbsp; GRID: CONNECTED ◈</sub></p>
 
-## ⚡ Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 AI Second Brain
-> RAG-powered personal knowledge base
-
-- Semantic search across PDFs & notes with **80% fewer hallucinations**
-- LangChain + Pinecone vector pipeline
-- Flashcards, summarization & chat Q&A
-
-**Stack:** React · Node.js · LangChain · Pinecone · MongoDB
-
-[![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/soham-kolhe/AI-SecondBrain)
-
-</td>
-<td width="50%" valign="top">
-
-### 🎨 CollabBoard
-> Real-time collaborative whiteboard
-
-- **Sub-100ms latency** across multiple simultaneous users
-- 60 FPS Canvas API rendering with undo/redo
-- Per-user sessions & persistent state
-
-**Stack:** React · Socket.io · Node.js · Canvas API (tldraw) · Express
-
-[![Code](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github)](https://github.com/soham-kolhe/collaborative-board)
-[![Live](https://img.shields.io/badge/Live-00C7B7?style=flat-square&logo=vercel&logoColor=white)](https://collabboard-frontend-one.vercel.app/)
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/soham-kolhe"><img src="https://img.shields.io/badge/GITHUB-0D0D0D?style=for-the-badge&logo=github&logoColor=00F0FF" /></a>
+  <a href="https://linkedin.com/in/soham-kolhe-b35768309"><img src="https://img.shields.io/badge/LINKEDIN-0D0D0D?style=for-the-badge&logo=linkedin&logoColor=FF00AA" /></a>
+  <a href="https://leetcode.com/u/Soham_Kolhe/"><img src="https://img.shields.io/badge/LEETCODE-0D0D0D?style=for-the-badge&logo=leetcode&logoColor=00F0FF" /></a>
+  <a href="mailto:sohamkolhe20@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0D0D0D?style=for-the-badge&logo=gmail&logoColor=FF00AA" /></a>
+</p>
 
 ---
 
-## 🛠️ Tech Stack
+### ◈ STATUS
 
-<div align="center">
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white)
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-</div>
+```
++ open to        : SDE internships, Full-Stack / Cloud roles — Remote / Vadodara
++ building       : this cyberpunk neon-city portfolio · AI Second Brain (RAG pipeline)
++ studying       : DevOps — Kubernetes, CI/CD pipelines, container orchestration
++ next milestone : SDE internship, 2027 batch
++ education      : B.Tech CSE, Parul University — CGPA 8.58/10
++ location       : Vadodara, Gujarat, India
+```
 
 ---
 
-## 📊 GitHub Stats
+### ◈ MISSION LOG // ACTIVE DEPLOYMENTS
 
-<div align="center">
+#### 01 · AI SECOND BRAIN
+![](https://img.shields.io/badge/DEPLOYED-00F0FF?style=flat-square&labelColor=0D0D0D)
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=soham-kolhe&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=soham-kolhe&layout=compact&theme=tokyonight&hide_border=true" />
+RAG-powered personal knowledge base — ingests PDFs and notes, builds vector embeddings, and answers questions in context instead of guessing.
+
+```
+▸ semantic search across documents, 80% fewer hallucinations
+▸ LangChain + Pinecone vector pipeline on Azure OpenAI (GPT-4)
+▸ auto-summaries, flashcard generation, chat-based Q&A
+```
+
+`React` `Node.js` `LangChain` `Pinecone` `Azure OpenAI` `MongoDB` `Docker`
+&nbsp;&nbsp;[→ repo](https://github.com/soham-kolhe/AI-SecondBrain)
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=soham-kolhe&theme=tokyonight&hide_border=true" />
+#### 02 · COLLABBOARD
+![](https://img.shields.io/badge/DEPLOYED-FF00AA?style=flat-square&labelColor=0D0D0D)
+
+Real-time collaborative whiteboard — multiple users drawing simultaneously with live remote-cursor tracking.
+
+```
+▸ sub-100ms sync latency across simultaneous users
+▸ 60 FPS Canvas API rendering, full undo/redo
+▸ per-user sessions with persistent board state
+```
+
+`React` `TypeScript` `Socket.io` `Node.js` `Express` `MongoDB`
+&nbsp;&nbsp;[→ repo](https://github.com/soham-kolhe/collaborative-board)
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=soham-kolhe&theme=tokyo-night&hide_border=true&area=true" />
+#### 03 · HOSPITAL INFORMATION SYSTEM
+![](https://img.shields.io/badge/IN_DEVELOPMENT-B8FF00?style=flat-square&labelColor=0D0D0D)
 
-</div>
+Enterprise healthcare platform — 12 integrated modules digitizing hospital operations end-to-end.
 
----
+```
+▸ OPD / IPD / Emergency / Pharmacy / Billing / Insurance / Radiology / Lab
+▸ dual-database architecture (MongoDB + PostgreSQL)
+▸ analytics dashboard across all modules
+```
 
-## 🏆 Highlights
-
-| Area | Detail |
-|------|--------|
-| 🧩 Problem Solving | 100+ LeetCode problems (Arrays, DP, Graphs, Greedy) |
-| ☁️ Cloud | 5x Microsoft Azure Certified |
-| ⚡ Performance | Built real-time systems with sub-100ms latency |
-| 🤖 AI/ML | RAG pipelines with 80% reduction in LLM hallucinations |
-
-<details>
-<summary>📜 Azure Certifications</summary>
-<br>
-
-| Certification | Level |
-|---------------|-------|
-| AZ-104 — Azure Administrator | Associate |
-| AI-900 — Azure AI Fundamentals | Fundamentals |
-| DP-900 — Azure Data Fundamentals | Fundamentals |
-| SC-900 — Azure Security Fundamentals | Fundamentals |
-| AZ-900 — Azure Fundamentals | Fundamentals |
-
-</details>
+`React` `Tailwind CSS` `Express.js` `MongoDB` `PostgreSQL`
+&nbsp;&nbsp;[→ repo](https://github.com/soham-kolhe)
 
 ---
 
-<div align="center">
+### ◈ GRID UPLINK // OPEN-SOURCE CONTRIBUTIONS
 
-**Open to SDE roles, Full Stack internships & open source collaboration · 2027 batch**
+```
++ PrivateBoard      forked · lexasub/PrivateBoard    JavaScript
+                     contributing fixes & features on top of the base whiteboard engine
+```
 
-[![LinkedIn](https://img.shields.io/badge/Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/soham-kolhe-b35768309)
-[![Email](https://img.shields.io/badge/Send%20a%20Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sohamkolhe20@gmail.com)
+[→ view fork](https://github.com/soham-kolhe/PrivateBoard)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=80&section=footer" />
+---
 
-</div>
+### ◈ TECH ARSENAL
+
+| Category | Stack |
+|---|---|
+| ⌨️ **Languages** | Java · JavaScript · TypeScript · SQL |
+| 🖥️ **Frontend** | React · Vite · HTML5 · CSS3 · Tailwind CSS · Three.js |
+| ⚙️ **Backend** | Node.js · Express.js · REST APIs · Socket.io |
+| 🗄️ **Databases** | MongoDB · PostgreSQL · Pinecone Vector DB |
+| ☁️ **Cloud & Azure** | Azure App Service · Azure Functions · Azure OpenAI · Azure Storage |
+| 🚀 **DevOps** | Docker · Docker Compose · Git · CI/CD · Kubernetes *(learning)* |
+| 🤖 **AI / ML** | LangChain · RAG Pipelines · GPT Models · Prompt Engineering · Embeddings |
+| 🛠️ **Tools** | VS Code · Postman · Docker Desktop · MySQL Workbench |
+
+---
+
+### ◈ DECODED CREDENTIALS
+
+- **AZ-104** — Azure Administrator Associate <sub>Microsoft · Associate</sub>
+- **AI-900** — Azure AI Fundamentals <sub>Microsoft · Fundamentals</sub>
+- **AZ-900** — Azure Fundamentals <sub>Microsoft · Fundamentals</sub>
+- **DP-900** — Azure Data Fundamentals <sub>Microsoft · Fundamentals</sub>
+- **SC-900** — Security, Compliance & Identity <sub>Microsoft · Fundamentals</sub>
+- **NPTEL** — Computer Networks <sub>IIT · Elite</sub>
+
+---
+
+### ◈ GRID METRICS
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=soham-kolhe&show_icons=true&hide_border=true&bg_color=0D0D0D&title_color=00F0FF&icon_color=B8FF00&text_color=A0A0B8&border_color=1E1E2E" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=soham-kolhe&layout=compact&hide_border=true&bg_color=0D0D0D&title_color=00F0FF&text_color=A0A0B8&border_color=1E1E2E" height="165" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=soham-kolhe&hide_border=true&background=0D0D0D&ring=FF00AA&fire=FF00AA&currStreakLabel=00F0FF&sideLabels=A0A0B8&dates=606078" />
+</p>
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/00F0FF/soham-kolhe" alt="contribution heatmap" />
+</p>
+
+<sub>if a card above shows a broken image, it's the shared public instance being rate-limited by GitHub's API — see the note below.</sub>
+
+---
+
+### `$ contribution_snake --render`
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/soham-kolhe/soham-kolhe/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</p>
+
+> recolored to your cyan/magenta palette in `.github/workflows/snake.yml` below — runs daily via GitHub Actions.
+
+---
+
+### ◈ OPEN COMM LINK
+
+<p align="center">
+&gt; EMAIL: <a href="mailto:sohamkolhe20@gmail.com">sohamkolhe20@gmail.com</a>
+</p>
+
+<p align="center"><sub>SK_PORTFOLIO // BUILD 2027.07</sub></p>
+<p align="center"><sub>still working on all the above.</sub></p>
