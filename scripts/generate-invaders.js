@@ -30,8 +30,6 @@ async function main() {
   if (!res.ok) throw new Error(`Failed to fetch contribution graph: ${res.status}`);
   const html = await res.text();
 
-  // Each day cell looks like:
-  // <td ... data-date="2025-07-27" id="contribution-day-component-0-0" data-level="0" ...>
   const cellRe = /<td[^>]*data-date="([^"]+)"[^>]*id="contribution-day-component-(\d+)-(\d+)"[^>]*data-level="(\d+)"[^>]*>/g;
 
   const cells = [];
@@ -58,57 +56,61 @@ async function main() {
   const xStart = PAD_LEFT + CELL / 2;
   const xEnd = PAD_LEFT + (numCols - 1) * STEP + CELL / 2;
 
-  function colX(c) {
-    return PAD_LEFT + c * STEP;
-  }
-  function rowY(r) {
-    return PAD_TOP + r * STEP;
-  }
-  function rowCenterY(r) {
-    return rowY(r) + CELL / 2;
-  }
+  function colX(c) { return PAD_LEFT + c * STEP; }
+  function rowY(r) { return PAD_TOP + r * STEP; }
+  function rowCenterY(r) { return rowY(r) + CELL / 2; }
 
-  // --- boxes ---
+  // --- boxes + bullets ---
+  // For each green box: the plane fires a bullet BULLET_TRAVEL seconds before it
+  // would reach the box. The bullet is invisible until fire-time, then travels
+  // from the plane's position at that instant to the box, arriving exactly when
+  // the box disappears — so boxes are hit one bullet at a time, in order.
+  const BULLET_TRAVEL = 0.16;
+  const rowSpeed = (xEnd - xStart) / ROW_DURATION;
+
   let boxesSvg = "";
-  const laserPulses = [];
+  let bulletsSvg = "";
 
   for (const cell of cells) {
-    if (cell.row >= NUM_ROWS) continue; // safety
+    if (cell.row >= NUM_ROWS) continue;
+    const bx = colX(cell.col);
+    const by = rowY(cell.row);
+
     if (cell.level > 0) {
       const hitFraction = cell.col / (numCols - 1);
-      const hitTimeAbs = cell.row * ROW_DURATION + hitFraction * ROW_DURATION + 0.05;
-      const hitFrac = Math.min(hitTimeAbs / totalDuration, 0.9999);
-      const epsFrac = Math.min(hitFrac + 0.0006, 0.9999);
+      const hitWithinRow = hitFraction * ROW_DURATION;
+      const travelDur = Math.min(BULLET_TRAVEL, hitWithinRow);
+      const fireWithinRow = hitWithinRow - travelDur;
 
-      const bx = colX(cell.col);
-      const by = rowY(cell.row);
+      const hitAbs = cell.row * ROW_DURATION + hitWithinRow;
+      const fireAbs = cell.row * ROW_DURATION + fireWithinRow;
+
+      const hitFrac = Math.min(hitAbs / totalDuration, 0.9999);
+      const fireFrac = Math.min(fireAbs / totalDuration, hitFrac - 0.0001);
+      const fireEps = Math.min(fireFrac + 0.0004, hitFrac - 0.00005);
+      const hitEps = Math.min(hitFrac + 0.0006, 0.9999);
+
+      const boxCx = bx + CELL / 2;
+      const planeXAtFire = xStart + rowSpeed * fireWithinRow;
+      const bulletY = rowCenterY(cell.row);
 
       boxesSvg += `<rect x="${bx.toFixed(2)}" y="${by.toFixed(2)}" width="${CELL}" height="${CELL}" rx="2" fill="${COLOR_BOX}">
-      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;${hitFrac.toFixed(5)};${epsFrac.toFixed(5)};1" dur="${totalDuration}s" begin="0s" repeatCount="indefinite" fill="freeze"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;${hitFrac.toFixed(5)};${hitEps.toFixed(5)};1" dur="${totalDuration}s" begin="0s" repeatCount="indefinite" fill="freeze"/>
     </rect>\n`;
 
-      laserPulses.push({ cx: bx + CELL / 2, cy: by + CELL / 2, hitFrac });
+      bulletsSvg += `<rect width="5" height="2.4" rx="1" fill="${COLOR_LASER}" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;${fireFrac.toFixed(5)};${fireEps.toFixed(5)};${hitFrac.toFixed(5)};${hitEps.toFixed(5)};1" dur="${totalDuration}s" begin="0s" repeatCount="indefinite" fill="freeze"/>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        values="${planeXAtFire.toFixed(2)},${(bulletY - 1.2).toFixed(2)};${planeXAtFire.toFixed(2)},${(bulletY - 1.2).toFixed(2)};${(boxCx - 2.5).toFixed(2)},${(bulletY - 1.2).toFixed(2)}"
+        keyTimes="0;${fireFrac.toFixed(5)};${hitFrac.toFixed(5)}"
+        dur="${totalDuration}s" begin="0s" repeatCount="indefinite" fill="freeze"/>
+    </rect>\n`;
     } else {
-      const bx = colX(cell.col);
-      const by = rowY(cell.row);
       boxesSvg += `<rect x="${bx.toFixed(2)}" y="${by.toFixed(2)}" width="${CELL}" height="${CELL}" rx="2" fill="${COLOR_EMPTY}"/>\n`;
     }
   }
 
-  // --- laser flash dots at hit moments ---
-  let laserSvg = "";
-  for (const p of laserPulses) {
-    const start = Math.max(p.hitFrac - 0.0015, 0);
-    const end = Math.min(p.hitFrac + 0.006, 1);
-    laserSvg += `<circle cx="${p.cx.toFixed(2)}" cy="${p.cy.toFixed(2)}" r="5" fill="${COLOR_LASER}" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;${start.toFixed(5)};${p.hitFrac.toFixed(5)};${end.toFixed(5)};1" dur="${totalDuration}s" begin="0s" repeatCount="indefinite" fill="freeze"/>
-    </circle>\n`;
-  }
-
-  // --- plane motion: x sweeps each row, y steps down each row ---
-  // A single animateTransform (translate) driven by combined "x,y" value pairs per
-  // row segment gives a clean left-to-right sweep with an instant vertical drop
-  // between rows.
+  // --- plane motion ---
   const combinedKeyTimes = [];
   const combinedValues = [];
   for (let r = 0; r < NUM_ROWS; r++) {
@@ -121,26 +123,38 @@ async function main() {
     combinedValues.push(`${xEnd.toFixed(2)},${y.toFixed(2)}`);
   }
 
+  // Pixel-art jet, nose pointing right: body, cockpit, wings, tail fin, engine glow.
+  const planeShape = `
+    <rect x="-11" y="-1.5" width="18" height="3" fill="${COLOR_PLANE}"/>
+    <rect x="4" y="-1" width="7" height="2" fill="${COLOR_PLANE}"/>
+    <rect x="-3" y="-5" width="6" height="3" fill="${COLOR_PLANE}"/>
+    <rect x="-3" y="2" width="6" height="3" fill="${COLOR_PLANE}"/>
+    <rect x="-9" y="-3.5" width="4" height="1.5" fill="${COLOR_PLANE}"/>
+    <rect x="-9" y="2" width="4" height="1.5" fill="${COLOR_PLANE}"/>
+    <rect x="1" y="-1.5" width="2.5" height="3" fill="${COLOR_LASER}" opacity="0.9"/>
+    <rect x="-14" y="-1" width="3" height="2" fill="${COLOR_PLANE}" opacity="0.5"/>
+  `;
+
   const planeGroup = `
   <g>
-    <path d="M -9,-6 L 9,0 L -9,6 L -4,0 Z" fill="${COLOR_PLANE}" stroke="${COLOR_PLANE}" stroke-width="0.5">
-      <animateTransform attributeName="transform" attributeType="XML" type="translate"
-        values="${combinedValues.join(";")}"
-        keyTimes="${combinedKeyTimes.join(";")}"
-        calcMode="linear"
-        dur="${totalDuration}s" repeatCount="indefinite"/>
-    </path>
+    ${planeShape}
+    <animateTransform attributeName="transform" attributeType="XML" type="translate"
+      values="${combinedValues.join(";")}"
+      keyTimes="${combinedKeyTimes.join(";")}"
+      calcMode="linear"
+      dur="${totalDuration}s" repeatCount="indefinite"/>
   </g>`;
 
   const svg = `<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
   <rect width="${width}" height="${height}" fill="${COLOR_BG}" rx="6"/>
   ${boxesSvg}
-  ${laserSvg}
+  ${bulletsSvg}
   ${planeGroup}
 </svg>`;
 
   require("fs").writeFileSync(process.env.OUTPUT_FILE || "row-sweep-invaders.svg", svg);
-  console.log(`Wrote SVG: ${width}x${height}, ${cells.length} cells parsed, ${laserPulses.length} contributed cells, duration ${totalDuration}s`);
+  const contributedCount = cells.filter((c) => c.level > 0).length;
+  console.log(`Wrote SVG: ${width}x${height}, ${cells.length} cells parsed, ${contributedCount} contributed cells, duration ${totalDuration}s`);
 }
 
 main().catch((err) => {
