@@ -220,7 +220,9 @@
 <rect x="734.00" y="48.00" width="11" height="11" rx="2" fill="#B8FF00">
       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.42582;0.42642;1" dur="14s" begin="0s" repeatCount="indefinite" fill="freeze"/>
     </rect>
-<rect x="748.00" y="48.00" width="11" height="11" rx="2" fill="#1a1a24"/>
+<rect x="748.00" y="48.00" width="11" height="11" rx="2" fill="#B8FF00">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.42857;0.42917;1" dur="14s" begin="0s" repeatCount="indefinite" fill="freeze"/>
+    </rect>
 <rect x="20.00" y="62.00" width="11" height="11" rx="2" fill="#1a1a24"/>
 <rect x="34.00" y="62.00" width="11" height="11" rx="2" fill="#1a1a24"/>
 <rect x="48.00" y="62.00" width="11" height="11" rx="2" fill="#1a1a24"/>
@@ -289,6 +291,7 @@
 <rect x="734.00" y="62.00" width="11" height="11" rx="2" fill="#B8FF00">
       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.56868;0.56928;1" dur="14s" begin="0s" repeatCount="indefinite" fill="freeze"/>
     </rect>
+<rect x="748.00" y="62.00" width="11" height="11" rx="2" fill="#1a1a24"/>
 <rect x="20.00" y="76.00" width="11" height="11" rx="2" fill="#1a1a24"/>
 <rect x="34.00" y="76.00" width="11" height="11" rx="2" fill="#1a1a24"/>
 <rect x="48.00" y="76.00" width="11" height="11" rx="2" fill="#1a1a24"/>
@@ -705,6 +708,13 @@
       <animateTransform attributeName="transform" attributeType="XML" type="translate"
         values="681.26,52.30;681.26,52.30;737.00,52.30"
         keyTimes="0;0.41440;0.42582"
+        dur="14s" begin="0s" repeatCount="indefinite" fill="freeze"/>
+    </rect>
+<rect width="5" height="2.4" rx="1" fill="#FF00AA" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.41714;0.41754;0.42857;0.42917;1" dur="14s" begin="0s" repeatCount="indefinite" fill="freeze"/>
+      <animateTransform attributeName="transform" attributeType="XML" type="translate"
+        values="695.26,52.30;695.26,52.30;751.00,52.30"
+        keyTimes="0;0.41714;0.42857"
         dur="14s" begin="0s" repeatCount="indefinite" fill="freeze"/>
     </rect>
 <rect width="5" height="2.4" rx="1" fill="#FF00AA" opacity="0">
