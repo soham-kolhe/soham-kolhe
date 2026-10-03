@@ -12,6 +12,7 @@
 
 <br/>
 
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-0B0C0E?style=for-the-badge&labelColor=0B0C0E&color=3ECF8E)](https://soham-dev-omega.vercel.app)
 [![Resume](https://img.shields.io/badge/RESUME-0B0C0E?style=for-the-badge&labelColor=0B0C0E&color=3ECF8E)](https://raw.githubusercontent.com/soham-kolhe/Soham.dev/main/public/resume.pdf)
 [![Email](https://img.shields.io/badge/EMAIL-0B0C0E?style=for-the-badge&logo=gmail&logoColor=3ECF8E)](mailto:sohamkolhe20@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0B0C0E?style=for-the-badge&logo=linkedin&logoColor=3ECF8E)](https://www.linkedin.com/in/soham-kolhe3318)
